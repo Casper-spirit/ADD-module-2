@@ -10,9 +10,9 @@ for i in range(1, 21):
     for j in range(1, 21):
         if j == i:
             break
-        if j + i == x and i != j:
+        if j + i == x: # and i != j:
             sec_number = i, j
-            #print('Second_nun: ', sec_number)
+            
 
             sec_res.extend(sec_number)
 print('Second_nun: ',sec_res)
